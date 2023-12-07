@@ -21,3 +21,14 @@ $data = [
 
     return view('hompage', $data);
 });
+
+Route::get('/ciao', function () {
+
+    return view('ciao');
+});
+
+Route::get('/questa', function () {
+
+    return view('questa');
+});
+
